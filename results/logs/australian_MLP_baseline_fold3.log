@@ -1,0 +1,23 @@
+Original class distribution: [345 276]
+Training device bound securely to: cuda
+Epoch 1/20 - Train Loss: 0.5763 - Val Acc: 0.7826
+Epoch 2/20 - Train Loss: 0.4050 - Val Acc: 0.7681
+Epoch 3/20 - Train Loss: 0.3377 - Val Acc: 0.7971
+Epoch 4/20 - Train Loss: 0.3086 - Val Acc: 0.7826
+Epoch 5/20 - Train Loss: 0.3127 - Val Acc: 0.8116
+Epoch 6/20 - Train Loss: 0.2938 - Val Acc: 0.8116
+Epoch 7/20 - Train Loss: 0.2987 - Val Acc: 0.8116
+Epoch 8/20 - Train Loss: 0.2876 - Val Acc: 0.8116
+Epoch 9/20 - Train Loss: 0.2784 - Val Acc: 0.7971
+Epoch 10/20 - Train Loss: 0.2628 - Val Acc: 0.8116
+Epoch 11/20 - Train Loss: 0.2814 - Val Acc: 0.8406
+Epoch 12/20 - Train Loss: 0.2593 - Val Acc: 0.7971
+Epoch 13/20 - Train Loss: 0.2522 - Val Acc: 0.8116
+Epoch 14/20 - Train Loss: 0.2423 - Val Acc: 0.8116
+Epoch 15/20 - Train Loss: 0.2463 - Val Acc: 0.7826
+Epoch 16/20 - Train Loss: 0.2583 - Val Acc: 0.8116
+Epoch 17/20 - Train Loss: 0.2472 - Val Acc: 0.7971
+Epoch 18/20 - Train Loss: 0.2358 - Val Acc: 0.7971
+Epoch 19/20 - Train Loss: 0.2318 - Val Acc: 0.7971
+Epoch 20/20 - Train Loss: 0.2273 - Val Acc: 0.7971
+Fold 4 logically complete. Tensor memory bounds cleared cleanly.

@@ -1,0 +1,16 @@
+{
+    "Python": "3.12.12 (main, Oct 10 2025, 08:52:57) [GCC 11.4.0]",
+    "System": "Linux-6.6.113+-x86_64-with-glibc2.35",
+    "PyTorch": "2.10.0+cu128",
+    "NumPy": "2.0.2",
+    "Pandas": "2.3.3",
+    "Scikit-Learn": "1.6.1",
+    "Imbalanced-Learn": "0.14.1",
+    "SHAP": "0.50.0",
+    "CUDA Available": true,
+    "GPU Count": 2,
+    "GPU Name(s)": [
+        "Tesla T4",
+        "Tesla T4"
+    ]
+}
