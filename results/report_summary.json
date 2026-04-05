@@ -1,8 +1,8 @@
 {
-    "german_baseline_mean": 0.8816425120772947,
-    "german_smote_mean": 0.8729468599033817,
-    "german_improvement": -0.008695652173912993,
-    "australian_baseline_mean": 0.8869565217391303,
-    "australian_smote_mean": 0.8748792270531401,
-    "australian_improvement": -0.01207729468599017
+    "german_baseline_mean": 0.8898550724637682,
+    "german_smote_mean": 0.8772946859903383,
+    "german_improvement": -0.01256038647342983,
+    "australian_baseline_mean": 0.892753623188406,
+    "australian_smote_mean": 0.881159420289855,
+    "australian_improvement": -0.011594202898550954
 }
