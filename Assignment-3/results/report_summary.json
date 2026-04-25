@@ -65,7 +65,7 @@
       "balanced_accuracy_mean": 0.8620758782813113,
       "balanced_accuracy_std": 0.06204448511136571,
       "val_loss_mean": 0.04234673772007227,
-      "runtime_seconds_mean": 2.452414608001709,
+      "runtime_seconds_mean": 2.4944607734680178,
       "fold_count": 10
     },
     {
@@ -90,7 +90,7 @@
       "balanced_accuracy_mean": 0.6542904676863434,
       "balanced_accuracy_std": 0.010276207243967876,
       "val_loss_mean": 0.43164321099122366,
-      "runtime_seconds_mean": 94.36892368793488,
+      "runtime_seconds_mean": 92.60570638179779,
       "fold_count": 10
     },
     {
@@ -115,7 +115,7 @@
       "balanced_accuracy_mean": 0.7195238095238096,
       "balanced_accuracy_std": 0.0545694801908939,
       "val_loss_mean": 0.7485180914402008,
-      "runtime_seconds_mean": 3.227496123313904,
+      "runtime_seconds_mean": 3.1691635131835936,
       "fold_count": 10
     }
   ],
