@@ -1,0 +1,17 @@
+{
+  "dataset": "german",
+  "model": "mlp",
+  "condition": "weighted_bce",
+  "fold_id": 10,
+  "explainer": "KernelExplainer",
+  "status": "success",
+  "raw_shap_shape": [
+    64,
+    24,
+    1
+  ],
+  "normalized_shap_shape": [
+    64,
+    24
+  ]
+}

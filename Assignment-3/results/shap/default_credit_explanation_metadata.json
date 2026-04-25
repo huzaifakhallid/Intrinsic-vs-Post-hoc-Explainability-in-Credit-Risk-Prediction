@@ -1,0 +1,17 @@
+{
+  "dataset": "default_credit",
+  "model": "mlp",
+  "condition": "baseline",
+  "fold_id": 6,
+  "explainer": "KernelExplainer",
+  "status": "success",
+  "raw_shap_shape": [
+    64,
+    29,
+    1
+  ],
+  "normalized_shap_shape": [
+    64,
+    29
+  ]
+}

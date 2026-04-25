@@ -1,0 +1,8 @@
+| component               | details                                      |
+|:------------------------|:---------------------------------------------|
+| Datasets                | australian, german, default_credit           |
+| Models                  | mlp, lstm, gru                               |
+| Conditions              | baseline, smoteenn, weighted_bce, focal_loss |
+| Folds                   | 10                                           |
+| Epochs                  | 35                                           |
+| Early stopping patience | 5                                            |

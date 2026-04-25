@@ -1,0 +1,18 @@
+{
+  "python_version": "3.12.12 (main, Oct 10 2025, 08:52:57) [GCC 11.4.0]",
+  "platform": "Linux-6.6.113+-x86_64-with-glibc2.35",
+  "pytorch_version": "2.10.0+cu128",
+  "cuda_available": true,
+  "cuda_device_count": 2,
+  "gpu_names": [
+    "Tesla T4",
+    "Tesla T4"
+  ],
+  "numpy_version": "2.0.2",
+  "pandas_version": "2.3.3",
+  "sklearn_version": "1.6.1",
+  "imblearn_version": "0.14.1",
+  "shap_version": "0.50.0",
+  "active_dataset_root": "/kaggle/input",
+  "active_output_root": "/kaggle/working/assignment3_outputs"
+}

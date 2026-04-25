@@ -1,0 +1,75 @@
+{
+  "seed": 42,
+  "quick_run": false,
+  "quick_run_folds": 3,
+  "quick_run_epochs": 6,
+  "quick_run_shap_background_size": 32,
+  "quick_run_shap_explain_size": 24,
+  "full_folds": 10,
+  "full_epochs": 35,
+  "early_stopping_patience": 5,
+  "early_stopping_min_delta": 0.0001,
+  "mixed_precision": true,
+  "use_dataparallel": true,
+  "parallel_experiments": false,
+  "max_parallel_workers": 2,
+  "default_threshold": 0.5,
+  "shap_background_size": 64,
+  "shap_explain_size": 64,
+  "kernel_shap_nsamples": 40,
+  "num_workers": 4,
+  "pin_memory": true,
+  "persistent_workers": true,
+  "prefetch_factor": 2,
+  "eval_batch_multiplier": 4,
+  "cache_preprocessed_folds": true,
+  "save_non_mlp_checkpoints": false,
+  "paths": {
+    "assignment_root": "/kaggle/working",
+    "dataset_root": "/kaggle/input",
+    "output_root": "/kaggle/working/assignment3_outputs"
+  },
+  "datasets": [
+    "australian",
+    "german",
+    "default_credit"
+  ],
+  "models": [
+    "mlp",
+    "lstm",
+    "gru"
+  ],
+  "conditions": [
+    "baseline",
+    "smoteenn",
+    "weighted_bce",
+    "focal_loss"
+  ],
+  "model_hyperparameters": {
+    "mlp": {
+      "learning_rate": 0.001,
+      "batch_size": 32,
+      "hidden_units": 128,
+      "dropout": 0.3,
+      "optimizer": "adam"
+    },
+    "lstm": {
+      "learning_rate": 0.001,
+      "batch_size": 64,
+      "hidden_units": 256,
+      "dropout": 0.3,
+      "optimizer": "rmsprop"
+    },
+    "gru": {
+      "learning_rate": 0.001,
+      "batch_size": 64,
+      "hidden_units": 256,
+      "dropout": 0.3,
+      "optimizer": "adam"
+    }
+  },
+  "n_splits": 10,
+  "num_epochs": 35,
+  "effective_shap_background_size": 64,
+  "effective_shap_explain_size": 64
+}

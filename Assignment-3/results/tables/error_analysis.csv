@@ -1,0 +1,10 @@
+dataset,model,condition,error_type,count,rate
+australian,mlp,focal_loss,correct,595,0.8623188405797102
+australian,mlp,focal_loss,false_negative,45,0.06521739130434782
+australian,mlp,focal_loss,false_positive,50,0.07246376811594203
+default_credit,gru,baseline,correct,24622,0.8207333333333333
+default_credit,gru,baseline,false_negative,4275,0.1425
+default_credit,gru,baseline,false_positive,1103,0.03676666666666667
+german,mlp,weighted_bce,correct,718,0.718
+german,mlp,weighted_bce,false_negative,83,0.083
+german,mlp,weighted_bce,false_positive,199,0.199

@@ -1,0 +1,17 @@
+{
+  "dataset": "australian",
+  "model": "mlp",
+  "condition": "focal_loss",
+  "fold_id": 5,
+  "explainer": "KernelExplainer",
+  "status": "success",
+  "raw_shap_shape": [
+    64,
+    29,
+    1
+  ],
+  "normalized_shap_shape": [
+    64,
+    29
+  ]
+}

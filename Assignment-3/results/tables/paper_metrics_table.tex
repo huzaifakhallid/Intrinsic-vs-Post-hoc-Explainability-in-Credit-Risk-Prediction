@@ -1,0 +1,42 @@
+\begin{tabular}{lllrrrrrr}
+\toprule
+dataset & model & condition & accuracy_mean & accuracy_std & sensitivity_mean & sensitivity_std & specificity_mean & specificity_std \\
+\midrule
+australian & gru & baseline & 0.789900 & 0.093200 & 0.743100 & 0.153500 & 0.827300 & 0.066200 \\
+australian & gru & focal_loss & 0.801400 & 0.082600 & 0.762900 & 0.129100 & 0.832900 & 0.065600 \\
+australian & gru & smoteenn & 0.750700 & 0.085300 & 0.661500 & 0.154900 & 0.821900 & 0.075600 \\
+australian & gru & weighted_bce & 0.765200 & 0.081900 & 0.743100 & 0.134900 & 0.782900 & 0.056000 \\
+australian & lstm & baseline & 0.800000 & 0.071300 & 0.736300 & 0.138400 & 0.850700 & 0.057400 \\
+australian & lstm & focal_loss & 0.771000 & 0.076000 & 0.742900 & 0.122300 & 0.793300 & 0.086500 \\
+australian & lstm & smoteenn & 0.734800 & 0.103200 & 0.578500 & 0.262500 & 0.861700 & 0.097000 \\
+australian & lstm & weighted_bce & 0.785500 & 0.077800 & 0.763100 & 0.115400 & 0.803600 & 0.098500 \\
+australian & mlp & baseline & 0.855100 & 0.065500 & 0.828600 & 0.139900 & 0.877500 & 0.057400 \\
+australian & mlp & focal_loss & 0.862300 & 0.057700 & 0.854500 & 0.119800 & 0.869600 & 0.062700 \\
+australian & mlp & smoteenn & 0.843500 & 0.055400 & 0.818500 & 0.131200 & 0.864400 & 0.046800 \\
+australian & mlp & weighted_bce & 0.862300 & 0.069800 & 0.854600 & 0.140300 & 0.869600 & 0.053500 \\
+default_credit & gru & baseline & 0.820700 & 0.006100 & 0.355800 & 0.019900 & 0.952800 & 0.005500 \\
+default_credit & gru & focal_loss & 0.763400 & 0.017400 & 0.609300 & 0.029200 & 0.807100 & 0.028500 \\
+default_credit & gru & smoteenn & 0.724300 & 0.051700 & 0.650400 & 0.071700 & 0.745300 & 0.084500 \\
+default_credit & gru & weighted_bce & 0.765600 & 0.008000 & 0.603800 & 0.027200 & 0.811500 & 0.014400 \\
+default_credit & lstm & baseline & 0.819600 & 0.006100 & 0.354700 & 0.028500 & 0.951600 & 0.007100 \\
+default_credit & lstm & focal_loss & 0.766900 & 0.014700 & 0.602600 & 0.029800 & 0.813500 & 0.025000 \\
+default_credit & lstm & smoteenn & 0.726600 & 0.069200 & 0.574300 & 0.161300 & 0.769900 & 0.117800 \\
+default_credit & lstm & weighted_bce & 0.773300 & 0.013300 & 0.585900 & 0.026900 & 0.826500 & 0.020000 \\
+default_credit & mlp & baseline & 0.821200 & 0.006200 & 0.351300 & 0.027700 & 0.954600 & 0.004300 \\
+default_credit & mlp & focal_loss & 0.761300 & 0.011900 & 0.618900 & 0.031300 & 0.801700 & 0.020400 \\
+default_credit & mlp & smoteenn & 0.672100 & 0.020200 & 0.730400 & 0.027200 & 0.655500 & 0.031200 \\
+default_credit & mlp & weighted_bce & 0.762000 & 0.013500 & 0.615400 & 0.020600 & 0.803700 & 0.020100 \\
+german & gru & baseline & 0.709000 & 0.022300 & 0.073300 & 0.157800 & 0.981400 & 0.049500 \\
+german & gru & focal_loss & 0.518000 & 0.147200 & 0.570000 & 0.284300 & 0.495700 & 0.322600 \\
+german & gru & smoteenn & 0.427000 & 0.114800 & 0.813300 & 0.175800 & 0.261400 & 0.228900 \\
+german & gru & weighted_bce & 0.563000 & 0.096000 & 0.563300 & 0.220200 & 0.562900 & 0.205100 \\
+german & lstm & baseline & 0.700000 & 0.000000 & 0.000000 & 0.000000 & 1.000000 & 0.000000 \\
+german & lstm & focal_loss & 0.519000 & 0.126300 & 0.613300 & 0.266300 & 0.478600 & 0.287000 \\
+german & lstm & smoteenn & 0.318000 & 0.056900 & 0.966700 & 0.073700 & 0.040000 & 0.111800 \\
+german & lstm & weighted_bce & 0.554000 & 0.115100 & 0.646700 & 0.179300 & 0.514300 & 0.215300 \\
+german & mlp & baseline & 0.772000 & 0.036800 & 0.500000 & 0.114400 & 0.888600 & 0.013100 \\
+german & mlp & focal_loss & 0.730000 & 0.044200 & 0.760000 & 0.087200 & 0.717100 & 0.042500 \\
+german & mlp & smoteenn & 0.621000 & 0.069700 & 0.870000 & 0.048300 & 0.514300 & 0.109800 \\
+german & mlp & weighted_bce & 0.718000 & 0.053300 & 0.723300 & 0.070400 & 0.715700 & 0.057700 \\
+\bottomrule
+\end{tabular}

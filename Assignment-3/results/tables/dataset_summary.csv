@@ -1,0 +1,4 @@
+dataset,rows,features,positive_count,negative_count,positive_rate,imbalance_ratio_majority_to_minority,missing_values,categorical_features,ordinal_features,numerical_features
+Australian Credit Approval,690,14,307,383,0.4449,1.2476,0,7,0,7
+German Credit,1000,24,300,700,0.3,2.3333,0,0,0,24
+UCI Default of Credit Card Clients,30000,23,6636,23364,0.2212,3.5208,0,3,6,14
