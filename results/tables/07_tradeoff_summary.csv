@@ -1,0 +1,6 @@
+Model,ROC‑AUC,Train Time (s),Faith@k=5,Stability (ρ)
+LogisticRegression,0.7741,1.7,,
+CatBoost,0.7890,10.7,0.2072,0.8584
+LightGBM,0.7825,0.2,0.1056,0.8683
+MLP,0.7828,9.9,0.2377,0.7877
+TabNet,0.7731,30.9,0.1776,0.2394

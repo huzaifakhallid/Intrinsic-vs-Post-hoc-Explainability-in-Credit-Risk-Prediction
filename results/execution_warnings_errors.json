@@ -1,0 +1,6 @@
+[
+  {
+    "type": "preprocessing",
+    "message": "Removed 35 exact duplicate rows to prevent train/test leakage."
+  }
+]

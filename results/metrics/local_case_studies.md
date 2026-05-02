@@ -1,0 +1,129 @@
+# Local Case Studies
+
+## TP Case
+- **True Label**: 1.0
+- **Predicted Label**: 1.0 (Prob: 0.8978)
+- **Raw feature values:**
+  - `LIMIT_BAL`: 20000
+  - `SEX`: 2
+  - `EDUCATION`: 2
+  - `MARRIAGE`: 2
+  - `AGE`: 22
+  - `PAY_0`: 2
+  - `PAY_2`: 4
+  - `PAY_3`: 3
+  - `PAY_4`: 2
+  - `PAY_5`: 0
+  - `PAY_6`: 0
+  - `BILL_AMT1`: 8628
+  - `BILL_AMT2`: 8350
+  - `BILL_AMT3`: 8076
+  - `BILL_AMT4`: 7798
+  - `BILL_AMT5`: 8110
+  - `BILL_AMT6`: 10194
+  - `PAY_AMT1`: 0
+  - `PAY_AMT2`: 0
+  - `PAY_AMT3`: 0
+  - `PAY_AMT4`: 441
+  - `PAY_AMT5`: 2368
+  - `PAY_AMT6`: 0
+  - `target`: 1
+- **Top 5 CatBoost (SHAP)**: PAY_0, num_delayed_months, avg_pay_delay, max_pay_delay, LIMIT_BAL
+- **Top 5 MLP (IG)**: PAY_0, num_delayed_months, max_pay_delay, LIMIT_BAL, PAY_2
+- **Top 5 TabNet (Masks)**: max_pay_delay, PAY_2, num_delayed_months, avg_pay_amt, PAY_AMT2
+
+## TN Case
+- **True Label**: 0.0
+- **Predicted Label**: 0.0 (Prob: 0.2949)
+- **Raw feature values:**
+  - `LIMIT_BAL`: 100000
+  - `SEX`: 2
+  - `EDUCATION`: 3
+  - `MARRIAGE`: 1
+  - `AGE`: 66
+  - `PAY_0`: 0
+  - `PAY_2`: 0
+  - `PAY_3`: 0
+  - `PAY_4`: 0
+  - `PAY_5`: 0
+  - `PAY_6`: 0
+  - `BILL_AMT1`: 100036
+  - `BILL_AMT2`: 100041
+  - `BILL_AMT3`: 100402
+  - `BILL_AMT4`: 97141
+  - `BILL_AMT5`: 97143
+  - `BILL_AMT6`: 97532
+  - `PAY_AMT1`: 4702
+  - `PAY_AMT2`: 4617
+  - `PAY_AMT3`: 3600
+  - `PAY_AMT4`: 3865
+  - `PAY_AMT5`: 3850
+  - `PAY_AMT6`: 3705
+  - `target`: 0
+- **Top 5 CatBoost (SHAP)**: utilization_current, PAY_0, avg_utilization, max_pay_delay, num_delayed_months
+- **Top 5 MLP (IG)**: avg_utilization, utilization_current, BILL_AMT5, MARRIAGE, BILL_AMT4
+- **Top 5 TabNet (Masks)**: utilization_current, max_pay_delay, BILL_AMT6, LIMIT_BAL, BILL_AMT2
+
+## FP Case
+- **True Label**: 0.0
+- **Predicted Label**: 1.0 (Prob: 0.5512)
+- **Raw feature values:**
+  - `LIMIT_BAL`: 210000
+  - `SEX`: 2
+  - `EDUCATION`: 1
+  - `MARRIAGE`: 2
+  - `AGE`: 30
+  - `PAY_0`: 1
+  - `PAY_2`: 2
+  - `PAY_3`: 0
+  - `PAY_4`: 0
+  - `PAY_5`: 0
+  - `PAY_6`: 0
+  - `BILL_AMT1`: 73903
+  - `BILL_AMT2`: 72153
+  - `BILL_AMT3`: 73634
+  - `BILL_AMT4`: 75095
+  - `BILL_AMT5`: 76886
+  - `BILL_AMT6`: 78604
+  - `PAY_AMT1`: 0
+  - `PAY_AMT2`: 2674
+  - `PAY_AMT3`: 2687
+  - `PAY_AMT4`: 3000
+  - `PAY_AMT5`: 3000
+  - `PAY_AMT6`: 3000
+  - `target`: 0
+- **Top 5 CatBoost (SHAP)**: max_pay_delay, PAY_0, num_delayed_months, avg_pay_delay, avg_payment_to_bill_ratio
+- **Top 5 MLP (IG)**: max_pay_delay, num_delayed_months, PAY_0, EDUCATION, PAY_2
+- **Top 5 TabNet (Masks)**: max_pay_delay, avg_pay_amt, num_delayed_months, recent_payment_change, LIMIT_BAL
+
+## FN Case
+- **True Label**: 1.0
+- **Predicted Label**: 0.0 (Prob: 0.2809)
+- **Raw feature values:**
+  - `LIMIT_BAL`: 80000
+  - `SEX`: 1
+  - `EDUCATION`: 3
+  - `MARRIAGE`: 1
+  - `AGE`: 41
+  - `PAY_0`: 1
+  - `PAY_2`: -1
+  - `PAY_3`: 0
+  - `PAY_4`: 0
+  - `PAY_5`: 0
+  - `PAY_6`: -1
+  - `BILL_AMT1`: -1645
+  - `BILL_AMT2`: 78379
+  - `BILL_AMT3`: 76304
+  - `BILL_AMT4`: 52774
+  - `BILL_AMT5`: 11855
+  - `BILL_AMT6`: 48944
+  - `PAY_AMT1`: 85900
+  - `PAY_AMT2`: 3409
+  - `PAY_AMT3`: 1178
+  - `PAY_AMT4`: 1926
+  - `PAY_AMT5`: 52964
+  - `PAY_AMT6`: 1804
+  - `target`: 1
+- **Top 5 CatBoost (SHAP)**: PAY_AMT1, num_delayed_months, max_pay_delay, utilization_current, payment_to_bill_ratio_1
+- **Top 5 MLP (IG)**: recent_bill_change, recent_payment_change, PAY_AMT1, avg_pay_amt, std_bill_amt
+- **Top 5 TabNet (Masks)**: recent_bill_change, max_pay_delay, BILL_AMT1, PAY_0, BILL_AMT3

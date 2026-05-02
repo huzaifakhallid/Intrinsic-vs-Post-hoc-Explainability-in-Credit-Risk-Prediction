@@ -1,0 +1,41 @@
+{
+  "run_mode": "extended",
+  "feature_mode": "engineered",
+  "use_logistic": true,
+  "use_catboost": true,
+  "use_calibration": true,
+  "use_cost_sensitive": true,
+  "use_infidelity": true,
+  "output_dir": "/kaggle/working/credit_xai_outputs",
+  "n_folds": 5,
+  "random_seeds": [
+    42,
+    2024,
+    7
+  ],
+  "inner_valid_size": 0.15,
+  "mlp_max_epochs": 50,
+  "mlp_patience": 8,
+  "tabnet_max_epochs": 100,
+  "tabnet_patience": 10,
+  "batch_size": 1024,
+  "mlp_lr": 0.001,
+  "mlp_wd": 0.0001,
+  "tabnet_lr": 0.02,
+  "tabnet_wd": 1e-05,
+  "explanation_samples": 500,
+  "shap_background_samples": 100,
+  "ig_steps": 25,
+  "ig_n_steps": 32,
+  "top_k_values": [
+    1,
+    3,
+    5,
+    10
+  ],
+  "use_smote_ablation": true,
+  "use_lime": false,
+  "mixed_precision": true,
+  "num_workers": 2,
+  "pin_memory": true
+}

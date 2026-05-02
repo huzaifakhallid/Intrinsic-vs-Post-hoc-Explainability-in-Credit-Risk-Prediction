@@ -1,0 +1,11 @@
+{
+  "cpu_count": 4,
+  "gpu_count": 2,
+  "gpu_names": [
+    "Tesla T4",
+    "Tesla T4"
+  ],
+  "torch_version": "2.10.0+cu128",
+  "cuda_available": true,
+  "python_version": "3.12.12 (main, Oct 10 2025, 08:52:57) [GCC 11.4.0]"
+}

@@ -1,0 +1,90 @@
+[
+  {
+    "check": "Target is binary",
+    "status": "PASS"
+  },
+  {
+    "check": "No missing values in df",
+    "status": "PASS"
+  },
+  {
+    "check": "CV folds generated",
+    "status": "PASS"
+  },
+  {
+    "check": "Tradeoff summary exists",
+    "status": "PASS"
+  },
+  {
+    "check": "Faithfulness summary exists",
+    "status": "PASS"
+  },
+  {
+    "check": "Runtime summary exists",
+    "status": "PASS"
+  },
+  {
+    "check": "Predictions saved",
+    "status": "PASS"
+  },
+  {
+    "check": "Explanations saved",
+    "status": "PASS"
+  },
+  {
+    "check": "Final paper interpretation exists",
+    "status": "PASS"
+  },
+  {
+    "check": "Final run report exists",
+    "status": "PASS"
+  },
+  {
+    "check": "catboost_statistical_tests.csv exists",
+    "status": "PASS"
+  },
+  {
+    "check": "catboost_statistical_tests.csv columns: metric, model_A, model_B, mean_diff, median_diff, p_value, effect_direction, status",
+    "status": "PASS"
+  },
+  {
+    "check": "raw_vs_engineered_summary.csv exists",
+    "status": "PASS"
+  },
+  {
+    "check": "raw_vs_engineered_summary.csv columns: model, feature_set, roc_auc, pr_auc, f1",
+    "status": "PASS"
+  },
+  {
+    "check": "model_specific_random_faithfulness.csv exists",
+    "status": "PASS"
+  },
+  {
+    "check": "model_specific_random_faithfulness.csv columns: model_name, reference_model_name, k, abs_change_mean, random_abs_change_mean, delta_vs_random_abs_change",
+    "status": "PASS"
+  },
+  {
+    "check": "cost_sensitive_summary_validation_thresholds.csv exists",
+    "status": "PASS"
+  },
+  {
+    "check": "cost_sensitive_summary_validation_thresholds.csv columns: model_name, scenario, best_threshold_mean, test_avg_cost_mean",
+    "status": "PASS"
+  },
+  {
+    "check": "local_case_studies_detailed.csv exists",
+    "status": "PASS"
+  },
+  {
+    "check": "local_case_studies_detailed.csv columns: case_type, true_label, pred_label, probability, CatBoost_Top5, MLP_Top5, TabNet_Top5, raw_features_json",
+    "status": "PASS"
+  },
+  {
+    "check": "fairness_groupwise_diagnostics_extended.csv exists",
+    "status": "PASS"
+  },
+  {
+    "check": "fairness_groupwise_diagnostics_extended.csv columns: model_name, attribute, group, group_size, default_rate, predicted_positive_rate, recall_tpr, fpr, fnr, brier_score, roc_auc",
+    "status": "PASS"
+  }
+]
