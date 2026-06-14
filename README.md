@@ -2,6 +2,9 @@
 
 **A Quantitative Evaluation of Faithfulness, Stability, and Predictive Performance**
 
+**Authors:** Abubakar Imran, Waqas Ahmed, Muhammad Huzaifa Khalid
+**Affiliation:** Department of Artificial Intelligence & Data Science, School of Computing, FAST-NUCES
+
 ---
 
 ## Overview
@@ -200,10 +203,11 @@ pip install torch pytorch-tabnet lightgbm catboost scikit-learn captum shap pand
 ## Citation
 
 ```bibtex
-@misc{khallid2025credit_risk_xai,
-  title   = {Intrinsic vs. Post-hoc Explainability in Credit Risk Prediction: A Quantitative Evaluation of Faithfulness, Stability, and Predictive Performance},
-  author  = {Khallid, Huzaifa},
-  year    = {2025}
+@misc{khalid2026credit_risk_xai,
+  title        = {Intrinsic vs. Post-hoc Explainability in Credit Risk Prediction: A Quantitative Evaluation of Faithfulness, Stability, and Predictive Performance},
+  author       = {Imran, Abubakar and Ahmed, Waqas and Khalid, Muhammad Huzaifa},
+  year         = {2026},
+  institution  = {Department of Artificial Intelligence \& Data Science, FAST-NUCES}
 }
 ```
 
